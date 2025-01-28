@@ -16,7 +16,7 @@ server:
             - /test-resources
           url: https://ui5.sap.com
         backend:
-          - path: /sap
+          - path: /sap/opu
             url: https://ndc-srvhana.opus-idc.com.br:8100
             client: '250'
     - name: fiori-tools-appreload
