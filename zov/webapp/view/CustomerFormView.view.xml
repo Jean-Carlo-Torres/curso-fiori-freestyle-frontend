@@ -2,10 +2,10 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns:t="sap.ui.table"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page2" title="Formulário de Cliente" navButtonPress="onNavBack">
        <VBox class="sapUiTinyMargin">
-            <Button text="Novo Cliente" press="onNewCustomer"></Button>
-            <Button text="Modificar Cliente 1" press="onEditCustomer1"></Button>
+            <Text text="Estou na CustomerFormView"></Text>
+            <Button text="Voltar para view1"></Button>
        </VBox>
     </Page>
 </mvc:View>

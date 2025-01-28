@@ -10,6 +10,16 @@ function (Controller) {
         },
         onPress: function(){
             alert("Hello world!")
-        }
+        },
+
+        onNewCustomer: function(){
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("RouteCustomerNew");
+        },
+
+        onEditCustomer1: function(){
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("RouteCustomerEdit", (CustomerId));
+        },
     });
 });
